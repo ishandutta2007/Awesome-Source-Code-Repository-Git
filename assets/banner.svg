@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Dark Tech Gradient Background -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="50%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#090d11" />
+    </linearGradient>
+
+    <!-- Vibrant Gradient Text -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f0883e" />
+      <stop offset="50%" stop-color="#40916c" />
+      <stop offset="100%" stop-color="#58a6ff" />
+    </linearGradient>
+
+    <!-- Node Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 42px; fill: url(#titleGrad); }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 20px; fill: #8b949e; }
+    .badge { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 14px; fill: #58a6ff; }
+    
+    @keyframes pulse {
+      0% { r: 6px; opacity: 0.4; }
+      50% { r: 12px; opacity: 0.9; }
+      100% { r: 6px; opacity: 0.4; }
+    }
+    @keyframes floatWave {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+    .pulsing-node { animation: pulse 3s infinite ease-in-out; }
+    .wave-group { animation: floatWave 6s infinite ease-in-out; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" stroke="#30363d" stroke-width="2" />
+
+  <!-- Animated Dynamic Git Graph Background Elements (Kept Low Opacity Behind Text) -->
+  <g opacity="0.25" class="wave-group">
+    <!-- Git Branch Lines -->
+    <path d="M 100 280 Q 300 200 500 280 T 900 280 T 1100 200" fill="none" stroke="#f0883e" stroke-width="4" stroke-dasharray="8 8" />
+    <path d="M 100 310 Q 400 250 700 310 T 1100 250" fill="none" stroke="#58a6ff" stroke-width="3" />
+    <path d="M 200 240 Q 500 120 800 240 T 1050 180" fill="none" stroke="#2ea043" stroke-width="3" />
+
+    <!-- Animated Nodes -->
+    <circle cx="300" cy="240" r="8" fill="#f0883e" filter="url(#glow)" class="pulsing-node" />
+    <circle cx="500" cy="280" r="10" fill="#58a6ff" filter="url(#glow)" class="pulsing-node" />
+    <circle cx="700" cy="310" r="8" fill="#2ea043" filter="url(#glow)" class="pulsing-node" />
+    <circle cx="900" cy="280" r="9" fill="#f0883e" filter="url(#glow)" class="pulsing-node" />
+  </g>
+
+  <!-- Foreground Foreground Container for Title & Subtitle (High Contrast) -->
+  <g transform="translate(60, 0)">
+    <!-- Top Pill Badge -->
+    <rect x="0" y="55" width="230" height="32" rx="16" fill="#1f242c" stroke="#388bfd" stroke-width="1.5" />
+    <text x="15" y="76" class="badge">🚀 AWESOME GIT ECOSYSTEM</text>
+
+    <!-- Main Title -->
+    <text x="0" y="145" class="title">Awesome Source Code Repository (Git)</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="190" class="subtitle">A Curated List of SaaS Git Platforms, Self-Hosted Forges &amp; Developer Tools</text>
+
+    <!-- Stat Highlights / Pills -->
+    <g transform="translate(0, 230)">
+      <rect x="0" y="0" width="160" height="40" rx="8" fill="#21262d" stroke="#30363d" />
+      <text x="20" y="25" fill="#c9d1d9" font-weight="600" font-family="sans-serif" font-size="14px">📁 SaaS Platforms</text>
+
+      <rect x="180" y="0" width="180" height="40" rx="8" fill="#21262d" stroke="#30363d" />
+      <text x="20" y="25" fill="#c9d1d9" font-weight="600" font-family="sans-serif" font-size="14px">⭐ Open-Source Forges</text>
+
+      <rect x="380" y="0" width="180" height="40" rx="8" fill="#21262d" stroke="#30363d" />
+      <text x="20" y="25" fill="#c9d1d9" font-weight="600" font-family="sans-serif" font-size="14px">🛠️ DevOps Tools</text>
+    </g>
+  </g>
+</svg>
