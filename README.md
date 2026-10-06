@@ -58,60 +58,60 @@ Below is the comparative breakdown of leading commercial SaaS Git platforms, sor
 
 ## ⭐ Open-Source GitHub Repositories
 
-Self-hosted Git forges and open-source tools empower organizations to retain full sovereignty over their codebase. Below are top open-source Git repositories and tools, sorted by **GitHub Star Count** (Descending):
+Self-hosted Git forges and open-source tools empower organizations to retain full sovereignty over their codebase. Below are top open-source Git repositories and tools, sorted by **GitHub Stars_Count** (Descending):
 
-1. 🦥 **[Lazygit](https://github.com/jesseduffield/lazygit)** [![GitHub stars](https://img.shields.io/github/stars/jesseduffield/lazygit?style=social&color=white)](https://github.com/jesseduffield/lazygit/stargazers)  
+1. 🦥 **[Lazygit](https://github.com/jesseduffield/lazygit)** [![GitHub_Stars](https://img.shields.io/github/stars/jesseduffield/lazygit?style=social&color=white)](https://github.com/jesseduffield/lazygit/stargazers)  
    *Simple terminal UI for git commands written in Go, offering intuitive keyboard shortcuts for commits, rebases, and branching.*
 
-2. 🌳 **[Git](https://github.com/git/git)** [![GitHub stars](https://img.shields.io/github/stars/git/git?style=social&color=white)](https://github.com/git/git/stargazers)  
+2. 🌳 **[Git](https://github.com/git/git)** [![GitHub_Stars](https://img.shields.io/github/stars/git/git?style=social&color=white)](https://github.com/git/git/stargazers)  
    *The core open-source distributed version control system created by Linus Torvalds, powering modern software development.*
 
-3. 🍵 **[Gitea](https://github.com/go-gitea/gitea)** [![GitHub stars](https://img.shields.io/github/stars/go-gitea/gitea?style=social&color=white)](https://github.com/go-gitea/gitea/stargazers)  
+3. 🍵 **[Gitea](https://github.com/go-gitea/gitea)** [![GitHub_Stars](https://img.shields.io/github/stars/go-gitea/gitea?style=social&color=white)](https://github.com/go-gitea/gitea/stargazers)  
    *Ultra-lightweight self-hosted Git service written in Go. Includes issues, pull requests, wikis, and Actions-compatible CI/CD.*
 
-4. 🐶 **[Gogs](https://github.com/gogs/gogs)** [![GitHub stars](https://img.shields.io/github/stars/gogs/gogs?style=social&color=white)](https://github.com/gogs/gogs/stargazers)  
+4. 🐶 **[Gogs](https://github.com/gogs/gogs)** [![GitHub_Stars](https://img.shields.io/github/stars/gogs/gogs?style=social&color=white)](https://github.com/gogs/gogs/stargazers)  
    *Painless, cross-platform self-hosted Git service with low hardware requirements, capable of running on a Raspberry Pi.*
 
-5. 💻 **[GitHub CLI](https://github.com/cli/cli)** [![GitHub stars](https://img.shields.io/github/stars/cli/cli?style=social&color=white)](https://github.com/cli/cli/stargazers)  
+5. 💻 **[GitHub CLI](https://github.com/cli/cli)** [![GitHub_Stars](https://img.shields.io/github/stars/cli/cli?style=social&color=white)](https://github.com/cli/cli/stargazers)  
    *GitHub's official command line tool bringing pull requests, issues, Actions, and repo management directly to your terminal.*
 
-6. 🦊 **[GitLab Community Edition](https://github.com/gitlabhq/gitlabhq)** [![GitHub stars](https://img.shields.io/github/stars/gitlabhq/gitlabhq?style=social&color=white)](https://github.com/gitlabhq/gitlabhq/stargazers)  
+6. 🦊 **[GitLab Community Edition](https://github.com/gitlabhq/gitlabhq)** [![GitHub_Stars](https://img.shields.io/github/stars/gitlabhq/gitlabhq?style=social&color=white)](https://github.com/gitlabhq/gitlabhq/stargazers)  
    *The leading open-source DevOps platform with complete SCM, integrated CI/CD, issue tracking, container registry, and security tools.*
 
-7. ⚡ **[GitUI](https://github.com/gitui-org/gitui)** [![GitHub stars](https://img.shields.io/github/stars/gitui-org/gitui?style=social&color=white)](https://github.com/gitui-org/gitui/stargazers)  
+7. ⚡ **[GitUI](https://github.com/gitui-org/gitui)** [![GitHub_Stars](https://img.shields.io/github/stars/gitui-org/gitui?style=social&color=white)](https://github.com/gitui-org/gitui/stargazers)  
    *Fast, blazing-quick terminal UI for Git written in Rust, designed for handling massive repositories without latency.*
 
-8. 🖥️ **[GitHub Desktop](https://github.com/desktop/desktop)** [![GitHub stars](https://img.shields.io/github/stars/desktop/desktop?style=social&color=white)](https://github.com/desktop/desktop/stargazers)  
+8. 🖥️ **[GitHub Desktop](https://github.com/desktop/desktop)** [![GitHub_Stars](https://img.shields.io/github/stars/desktop/desktop?style=social&color=white)](https://github.com/desktop/desktop/stargazers)  
    *Official open-source GUI application for Git and GitHub workflows, simplifying staging, committing, and branch management.*
 
-9. 🎯 **[OneDev](https://github.com/theonedev/onedev)** [![GitHub stars](https://img.shields.io/github/stars/theonedev/onedev?style=social&color=white)](https://github.com/theonedev/onedev/stargazers)  
+9. 🎯 **[OneDev](https://github.com/theonedev/onedev)** [![GitHub_Stars](https://img.shields.io/github/stars/theonedev/onedev?style=social&color=white)](https://github.com/theonedev/onedev/stargazers)  
    *All-in-one open-source DevOps platform featuring Git hosting, visual CI/CD pipeline builders, and customizable issue tracking.*
 
-10. 📦 **[Git LFS](https://github.com/git-lfs/git-lfs)** [![GitHub stars](https://img.shields.io/github/stars/git-lfs/git-lfs?style=social&color=white)](https://github.com/git-lfs/git-lfs/stargazers)  
+10. 📦 **[Git LFS](https://github.com/git-lfs/git-lfs)** [![GitHub_Stars](https://img.shields.io/github/stars/git-lfs/git-lfs?style=social&color=white)](https://github.com/git-lfs/git-lfs/stargazers)  
     *An open-source Git extension for versioning large binary files (audio, video, datasets, graphics) outside the main repository.*
 
-11. ⚙️ **[Libgit2](https://github.com/libgit2/libgit2)** [![GitHub stars](https://img.shields.io/github/stars/libgit2/libgit2?style=social&color=white)](https://github.com/libgit2/libgit2/stargazers)  
+11. ⚙️ **[Libgit2](https://github.com/libgit2/libgit2)** [![GitHub_Stars](https://img.shields.io/github/stars/libgit2/libgit2?style=social&color=white)](https://github.com/libgit2/libgit2/stargazers)  
     *Portable, pure C implementation of the Git core methods, enabling native Git bindings in Node.js, Python, Rust, and Go.*
 
-12. 🪣 **[GitBucket](https://github.com/gitbucket/gitbucket)** [![GitHub stars](https://img.shields.io/github/stars/gitbucket/gitbucket?style=social&color=white)](https://github.com/gitbucket/gitbucket/stargazers)  
+12. 🪣 **[GitBucket](https://github.com/gitbucket/gitbucket)** [![GitHub_Stars](https://img.shields.io/github/stars/gitbucket/gitbucket?style=social&color=white)](https://github.com/gitbucket/gitbucket/stargazers)  
     *Scala-powered Git platform offering a GitHub-like web interface, easy plugin extensibility, and simple WAR deployment.*
 
-13. 🌐 **[Isomorphic-Git](https://github.com/isomorphic-git/isomorphic-git)** [![GitHub stars](https://img.shields.io/github/stars/isomorphic-git/isomorphic-git?style=social&color=white)](https://github.com/isomorphic-git/isomorphic-git/stargazers)  
+13. 🌐 **[Isomorphic-Git](https://github.com/isomorphic-git/isomorphic-git)** [![GitHub_Stars](https://img.shields.io/github/stars/isomorphic-git/isomorphic-git?style=social&color=white)](https://github.com/isomorphic-git/isomorphic-git/stargazers)  
     *Pure JavaScript implementation of Git that works seamlessly in both Web Browsers and Node.js environments.*
 
-14. 🍦 **[Soft Serve](https://github.com/charmbracelet/soft-serve)** [![GitHub stars](https://img.shields.io/github/stars/charmbracelet/soft-serve?style=social&color=white)](https://github.com/charmbracelet/soft-serve/stargazers)  
+14. 🍦 **[Soft Serve](https://github.com/charmbracelet/soft-serve)** [![GitHub_Stars](https://img.shields.io/github/stars/charmbracelet/soft-serve?style=social&color=white)](https://github.com/charmbracelet/soft-serve/stargazers)  
     *A command-line readable, self-hostable Git server for the terminal, featuring SSH access controls and TUI navigation.*
 
-15. 🏙️ **[Git Town](https://github.com/git-town/git-town)** [![GitHub stars](https://img.shields.io/github/stars/git-town/git-town?style=social&color=white)](https://github.com/git-town/git-town/stargazers)  
+15. 🏙️ **[Git Town](https://github.com/git-town/git-town)** [![GitHub_Stars](https://img.shields.io/github/stars/git-town/git-town?style=social&color=white)](https://github.com/git-town/git-town/stargazers)  
     *High-level command-line interface for Git that automates branch management, syncing, shipping, and trunk-based workflows.*
 
-16. 🧪 **[Gitless](https://github.com/gitless-vcs/gitless)** [![GitHub stars](https://img.shields.io/github/stars/gitless-vcs/gitless?style=social&color=white)](https://github.com/gitless-vcs/gitless/stargazers)  
+16. 🧪 **[Gitless](https://github.com/gitless-vcs/gitless)** [![GitHub_Stars](https://img.shields.io/github/stars/gitless-vcs/gitless?style=social&color=white)](https://github.com/gitless-vcs/gitless/stargazers)  
     *An experimental version control system built on top of Git, designed to simplify branch concepts and staging mechanics.*
 
-17. 🔍 **[Review Board](https://github.com/reviewboard/reviewboard)** [![GitHub stars](https://img.shields.io/github/stars/reviewboard/reviewboard?style=social&color=white)](https://github.com/reviewboard/reviewboard/stargazers)  
+17. 🔍 **[Review Board](https://github.com/reviewboard/reviewboard)** [![GitHub_Stars](https://img.shields.io/github/stars/reviewboard/reviewboard?style=social&color=white)](https://github.com/reviewboard/reviewboard/stargazers)  
     *Extensible web-based code review tool supporting Git, Subversion, Mercurial, and Perforce repositories.*
 
-18. 🔬 **[Gerrit Code Review](https://github.com/GerritCodeReview/gerrit)** [![GitHub stars](https://img.shields.io/github/stars/GerritCodeReview/gerrit?style=social&color=white)](https://github.com/GerritCodeReview/gerrit/stargazers)  
+18. 🔬 **[Gerrit Code Review](https://github.com/GerritCodeReview/gerrit)** [![GitHub_Stars](https://img.shields.io/github/stars/GerritCodeReview/gerrit?style=social&color=white)](https://github.com/GerritCodeReview/gerrit/stargazers)  
     *Web-based code review tool for Git repositories, standard in Android and Chromium development for gatekeeping commits.*
 
 ---
